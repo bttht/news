@@ -9,7 +9,7 @@
       thumbSmall: "cover",
       thumbMedium: "cover",
       thumbBig: "cover",
-      thumbDomain: "https",
+      thumbDomain: "https:",
       createdDate: "posttime",
       dateFormat: "L13",
       updatedDate: "",
