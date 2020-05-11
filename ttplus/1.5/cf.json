@@ -97,14 +97,13 @@
       res_icon_name: "cat_suc_khoe",
       provider_cf: [
         {
-          provider_id: "5pl_skhoe",
-          pid: "n24_home",
+          provider_id: "ttp_skhoe",
+          pid: "ttp_home",
           group_id: "suc_khoe",
-          url: "https://api.5play.mobi/news/v4.0/articles?latest=0&sid=999&cid=10&count=30",
-          page_var: "lid",
-          page_type: "custom",
-          detail_url: "",
-          related_url: "https://api.5play.mobi/news/v4.0/articles?latest=0&sid=999&cid=999&count=5&lid={post.id}"
+          url: "https://tuoitreplus.com/v2/api/post/category?slug=suc-khoe&limit=10",
+          page_var: "page",
+          page_type: "normal,1",
+          detail_url: "https://tuoitreplus.com/v2/api/post/info/{post.id}"
         }
       ]
     },
