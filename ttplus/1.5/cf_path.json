@@ -6,36 +6,54 @@
       title: "title",
       desc: "desc",
       source: "url",
-	  thumbSmall: "cover",
-	  thumbMedium: "cover",
-	  thumbBig: "cover",
-	  createdDate: "posttime",
-	  dateFormat: "L13",
-	  updatedDate: "",
-	  detail: "content",
-	  video_strs: "listMp4",
-	  video_view_type:"a"
+      thumbSmall: "cover",
+      thumbMedium: "cover",
+      thumbBig: "cover",
+      createdDate: "posttime",
+      dateFormat: "L13",
+      updatedDate: "",
+      detail: "content",
+      video_strs: "listMp4",
+      video_view_type: "a"
     },
-	next_page="$.linfos[-1:].lid",
-	resolve_detail_data:"jRemoveTags_script,jReplaceTag_h2_span,jReplaceTag_h3_span, jReplaceTag_h1_span",
-	in_video_content:{
-		div: "data-src"
-	},
-	related_post_list: "$.linfos",
+    next_page: "$.linfos[-1:].lid",
+    resolve_detail_data: "jRemoveTags_script,jReplaceTag_h2_span,jReplaceTag_h3_span, jReplaceTag_h1_span",
+    in_video_content: {
+      div: "data-src"
+    },
+    related_post_list: "$.linfos",
     related_post: {
       id: "lid",
       title: "title",
       desc: "desc",
       source: "url",
-	  thumbSmall: "cover",
-	  thumbMedium: "cover",
-	  thumbBig: "cover",
-	  createdDate: "posttime",
-	  dateFormat: "L13",
-	  updatedDate: "",
-	  detail: "content",
-	  video_strs: "listMp4",
-	  video_view_type:"a"
+      thumbSmall: "cover",
+      thumbMedium: "cover",
+      thumbBig: "cover",
+      createdDate: "posttime",
+      dateFormat: "L13",
+      updatedDate: "",
+      detail: "content",
+      video_strs: "listMp4",
+      video_view_type: "a"
     }
+  },
+  ttp_home: {
+    post_list: "$.data.posts",
+    post: {
+      id: "pid",
+      title: "title",
+      desc: "description",
+      source: "href",
+      thumbSmall: "images.small",
+      thumbMedium: "images.medium",
+      thumbBig: "images.normal",
+      createdDate: "time",
+      dateFormat: "yyyy-MM-dd HH:mm:ss",
+      updatedDate: "time",
+      video_strs: "listMp4",
+      video_view_type: "a"
+    },
+    detail: "$.data.post.content"
   }
 }
